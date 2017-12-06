@@ -12,7 +12,11 @@ namespace WebAppProva2blab2Isaias_Pereira.Models.Hotel
         public DateTime DataEntrada { get; set; }
         public DateTime DataSaida { get; set; }
         public decimal Valor { get; set; }
+        public int CategoriaId { get; set; }
+        public int HospedeId { get; set; }
 
         public virtual ICollection<Historico> Historicos { get; set; }
+        public virtual Categoria categoria { get; set; }
+        public virtual Hospede hospede { get; set; }
     }
 }

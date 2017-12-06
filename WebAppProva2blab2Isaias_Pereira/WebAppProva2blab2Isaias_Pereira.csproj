@@ -194,8 +194,17 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Configurations\CategoriaConfig.cs" />
+    <Compile Include="Models\Configurations\HistoricoConfig.cs" />
+    <Compile Include="Models\Configurations\HospedeConfig.cs" />
+    <Compile Include="Models\Configurations\ReservaConfigurations.cs" />
+    <Compile Include="Models\Hotel\Categoria.cs" />
+    <Compile Include="Models\Hotel\ContextoHotel.cs" />
+    <Compile Include="Models\Hotel\Endereco.cs" />
     <Compile Include="Models\Hotel\Historico.cs" />
+    <Compile Include="Models\Hotel\Hospede.cs" />
     <Compile Include="Models\Hotel\Reserva.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
